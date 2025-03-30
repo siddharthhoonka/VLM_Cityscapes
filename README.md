@@ -32,7 +32,7 @@ The **Cityscapes dataset** is ideal for training autonomous driving models becau
 
 
 
-   ![Example Segmentation](Sample1.png)
+   ![Example Segmentation](Sample2.png)
 
   
 - The model accurately segmented **vehicles, roads, and pedestrians**, demonstrating its effectiveness in autonomous driving scenarios.
@@ -45,18 +45,8 @@ Fine-tuning **ResNet-50** on the **Cityscapes dataset** provided a robust segmen
 - Implement **data augmentation** and **adaptive learning rate scheduling** to address loss stagnation.
 - Optimize the model for **real-time deployment** in autonomous vehicle systems.
 
----
-### Repository Structure
-```
-📂 project_root
- ├── 📂 data            # Cityscapes dataset
- ├── 📂 models          # Saved fine-tuned model
- ├── 📂 notebooks       # Training and evaluation notebooks
- ├── 📂 visualization   # Segmentation output images
- ├── train.py          # Training script
- ├── eval.py           # Evaluation script
- ├── README.md         # Project documentation
-```
+
+
 
 ## How to Run
 ```bash
