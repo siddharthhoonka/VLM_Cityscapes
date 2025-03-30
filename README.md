@@ -26,7 +26,11 @@ The **Cityscapes dataset** is ideal for training autonomous driving models becau
 ## Results & Visualization
 - After fine-tuning, the model was able to generate **high-quality segmentation maps**.
 - Below are some visualized results:
+
+
   ![Example Segmentation](Sample1.png)
+
+  
 - The model accurately segmented **vehicles, roads, and pedestrians**, demonstrating its effectiveness in autonomous driving scenarios.
 
 ## Conclusion
