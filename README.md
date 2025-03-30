@@ -47,19 +47,6 @@ Fine-tuning **ResNet-50** on the **Cityscapes dataset** provided a robust segmen
 
 
 
-
-## How to Run
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model
-python train.py --epochs 50 --batch_size 16
-
-# Evaluate the model
-python eval.py --checkpoint path_to_checkpoint
-```
-
 ## References
 - Cityscapes Dataset: https://www.cityscapes-dataset.com/
 - ResNet Paper: https://arxiv.org/abs/1512.03385
